@@ -1,0 +1,200 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<!--
+Template Name: Wavefire
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Uchlik</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+{% block content %}
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay" style="background-image:url('{% static 'images/demo/fon.jpg' %}');">
+  <div id="pageintro" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading">{% trans 'Bizning saytimizga Hush Kelibsiz' %}</h3>
+      <p>{% trans "Bizning saytda O'zingizga kerakli bo'lgan malumotlarni olishingiz mumkin" %}</p>
+      <footer><a class="btn" href="#">{% trans 'Biz haqimizda' %}!<i class="fas fa-angle-right"></i></a></footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">{% trans '2019/2020 yillik statistika' %}</h6>
+      <p>{% trans 'Bunda kunlik, haftalik, oylik, va yillik malumtlar jamlangan' %}</p>
+    </div>
+    <div class="group center btmspace-80">
+      <article class="one_third first"><a class="ringcon btmspace-50" href="#"><i class="fas fa-cube"></i></a>
+        <h6 class="heading">{% trans 'Yillik Malumotlar' %}</h6>
+        <p>{% trans '2019/2020 yil mobaynida Kampanyamiz' %}</p>
+      </article>
+      <article class="one_third"><a class="ringcon btmspace-50" href="#"><i class="fas fa-chart-pie"></i></a>
+        <h6 class="heading">{% trans 'Bir oylik malumotlar' %}</h6>
+        <p>{% trans "Biz yaratgan loyihalar har oyda ko'plab insonlarning etirofiga sazvar bo'lmoqda." %} </p>
+      </article>
+      <article class="one_third"><a class="ringcon btmspace-50" href="#"><i class="fas fa-paw"></i></a>
+        <h6 class="heading">{% trans 'Haftalik Malumotlar' %}</h6>
+        <p>{% trans "O'tgan ikki hafta mobaynida 2 ta loyiha tuganlandi va foydalanishga topshirildi." %}</p>
+      </article>
+    </div>
+    <p class="center"><a class="btn" href="#">{% trans "Batafsil ko'rish" %} <i class="fas fa-angle-right"></i></a></p>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <article class="one_third first">
+      <h6 class="heading">{% trans "Sulton Abirqulov Sirojiddin O'g'li" %}</h6>
+      <p>{% trans "Men" %}</p>
+      <p class="btmspace-30">{% trans "kuchli mehnat" %}</p>
+      <p><a class="btn" href="#">{% trans "Yanayam ko'proq bilish" %} <i class="fas fa-angle-right"></i></a></p>
+    </article>
+    <figure class="one_third"><a class="imgover" href="#"><img src="{% static 'images/demo/ozim.jpg' %}" alt=""></a></figure>
+    <figure class="one_third"><a class="imgover" href="#"><img src="{% static 'images/demo/ozim3.jpg' %}" alt=""></a></figure>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <section class="hoc container clear">
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">{% trans 'Biz Yaratgan Mahsulotlar' %}</h6>
+      <p>{% trans "Bu yerda qisqacha berilgan Yanayam ko'proq ko'rishingiz mumkin" %}</p>
+    </div>
+    <ul class="nospace group btmspace-80 overview">
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-smile"></i></a>
+          <h6 class="heading"><a href="#">{% trans 'Yaxshi kayfiyat sirlari app.' %}</a></h6>
+          <p>{% trans "Bunda siz qande qande qilib yaxshi kayfiyatda bo'lishni o'rganasiz." %}&helli</p>
+          <footer><a href="#">{% trans "Davomi" %} <i class="fas fa-angle-right"></i></a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class=" fas fa-child"></i></a>
+          <h6 class="heading"><a href="#">{% trans 'Inson media' %}</a></h6>
+          <p>{% trans "Barcha turdagi ruhiy bilimlar olami. Faqat bizda ko'rishingiz mumkin" %}&hellip;</p>
+          <footer><a href="#">{% trans "Davomi" %} <i class="fas fa-angle-right"></i></a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-life-ring"></i></a>
+          <h6 class="heading"><a href="#">{% trans 'Avtomobillarga dizkalar.' %}</a></h6>
+          <p>{% trans "Barcha turdagi avtomobilllar uchun har qanday o'lcham mavjud" %}&hellip;</p>
+          <footer><a href="#">{% trans "Davomi" %} <i class="fas fa-angle-right"></i></a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class=" fas fa-low-vision"></i></a>
+          <h6 class="heading"><a href="#">{% trans "Yaxshi ko'rish sirlari" %}.</a></h6>
+          <p>{% trans "Ko'zingiz yaxshi ko'rmayapdimi unda bizda yaxshi ko'rasiz" %}&hellip;</p>
+          <footer><a href="#">{% trans "Davomi" %} <i class="fas fa-angle-right"></i></a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-camera"></i></a>
+          <h6 class="heading"><a href="#">{% trans "Eng zo'r Kameralar" %}</a></h6>
+          <p>{% trans "Ha siz adashmadingiz eng zo'rlari faqat bizda. Keyib boshqalarda" %}&hellip;</p>
+          <footer><a href="#">{% trans "Davomi" %} <i class="fas fa-angle-right"></i></a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-bicycle"></i></a>
+          <h6 class="heading"><a href="#">{% trans 'Velosipedni sifatlilari' %}</a></h6>
+          <p>{% trans 'Velosiped tanlashda adashmang, bizda faqat eng sifatlilari oling va mining' %}&hellip;</p>
+          <footer><a href="#">{% trans "Davomi" %}  </a> <i class="fas fa-angle-right"></i></footer>
+        </article>
+      </li>
+    </ul>
+    <footer class="center"><a class="btn" href="#">{% trans 'Barchasi shu yerda' %} <i class="fas fa-angle-right"></i></a></footer>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <section class="hoc container clear">
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">{% trans 'Uchlik Kampanyasi asoschilari' %}</h6>
+      <p>{% trans 'Kapanyamiz 13/03/2020 sanasida tashkil topgan' %}.</p>
+    </div>
+
+    <div id="latest" class="group" style="width:100% ;float:left">
+      {% for u in uch %}
+        {% if LANGUAGE_CODE == 'uz' %}
+          <article class="one_third">
+            <a class="imgover" href="#"><img src="{{u.image.url}}" alt=""></a>
+            <div class="excerpt">
+              <h6 class="heading">{{u.name_uz}}</h6>
+              <p>{{u.description_uz}}.</p>
+              <footer><a href="#">{% trans "O'qish" %} <i class="fas fa-angle-right"></i></a></footer>
+            </div>
+          </article>
+        {% elif LANGUAGE_CODE == 'ru' %}
+          <article class="one_third">
+            <a class="imgover" href="#"><img src="{{u.image.url}}" alt=""></a>
+            <div class="excerpt">
+              <h6 class="heading">{{u.name_ru}}</h6>
+              <p>{{u.description_ru}}.</p>
+              <footer><a href="#">{% trans "O'qish" %} <i class="fas fa-angle-right"></i></a></footer>
+            </div>
+          </article>
+        {% else %}
+          <article class="one_third">
+            <a class="imgover" href="#"><img src="{{u.image.url}}" alt=""></a>
+            <div class="excerpt">
+              <h6 class="heading">{{u.name_en}}</h6>
+              <p>{{u.description_en}}.</p>
+              <footer><a href="#">{% trans "O'qish" %} <i class="fas fa-angle-right"></i></a></footer>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+      </div>
+    <footer class="center"><a class="btn" href="#">{% trans "To'liq Malumotlar" %} <i class="fas fa-angle-right"></i></a></footer>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+{% endblock %}
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+</body>
+</html>

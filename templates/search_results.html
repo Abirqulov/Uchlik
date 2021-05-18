@@ -1,0 +1,67 @@
+<!doctype html>
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+
+  <title>search_results</title>
+</head>
+<body>
+{% block content %}
+      {% get_current_language as LANGUAGE_CODE %}
+      {% get_available_languages as LANGUAGES %}
+      {% get_language_info_list for LANGUAGES as languages %}
+<div class="wrapper row2">
+  <section class="hoc container clear">
+    <!-- ################################################################################################ -->
+    <div id="latest" class="group" style="width:100% ;float:left">
+
+      {% for u in object_list %}
+        {% if LANGUAGE_CODE == 'uz' %}
+          <article class="one_third">
+            <a class="imgover" href="#"><img src="{{u.image.url}}" alt=""></a>
+            <div class="excerpt">
+              <h6 class="heading">{{u.name_uz}}</h6>
+              <p>{{u.description_uz}}.</p>
+            </div>
+          </article>
+        {% elif LANGUAGE_CODE == 'ru' %}
+          <article class="one_third">
+            <a class="imgover" href="#"><img src="{{u.image.url}}" alt=""></a>
+            <div class="excerpt">
+              <h6 class="heading">{{u.name_ru}}</h6>
+              <p>{{u.description_ru}}.</p>
+            </div>
+          </article>
+        {% else %}
+          <article class="one_third">
+            <a class="imgover" href="#"><img src="{{u.image.url}}" alt=""></a>
+            <div class="excerpt">
+              <h6 class="heading">{{u.name_en}}</h6>
+              <p>{{u.description_en}}.</p>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+      </div>
+  </section>
+</div>
+
+<!--<ul>-->
+<!--  {% for city in object_list %}-->
+<!--    <li>-->
+<!--      <h2>{{ city.name }}</h2>-->
+<!--      {{ city.description }}-->
+<!--      {{ city.image.url }}-->
+<!--    </li>-->
+<!--  {% endfor %}-->
+<!--</ul>-->
+{% endblock %}
+</body>
+</html>

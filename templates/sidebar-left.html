@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<!--
+Template Name: Wavefire
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Uchlik | Pages | Sidebar Left</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+{% block content %}
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay" style="background-image:url('{% static 'images/demo/left.jpg' %}');">
+  <div id="breadcrumb" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <h6 class="heading">{% trans "Chap panel" %}</h6>
+    <ul>
+      <li><a href="#">{% trans "Bosh sahifa" %}</a></li>
+      <li><a href="#">{% trans "Oldinga" %}</a></li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="sidebar one_quarter first"> 
+      <!-- ################################################################################################ -->
+      <h6>{% trans "Navigatsiya paneli" %}</h6>
+      <nav class="sdb_holder">
+        <ul>
+          <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 1</a></li>
+          <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 1</a>
+            <ul>
+              <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 2</a></li>
+              <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 1</a>
+            <ul>
+              <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 2</a></li>
+              <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 2</a>
+                <ul>
+                  <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 3</a></li>
+                  <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">{% trans "Navigarsiya - yorlig'i" %} 1</a></li>
+        </ul>
+      </nav>
+      <div class="sdb_holder">
+        <h6>{% trans "Asosoiy qsim" %}</h6>
+        <address>
+          {% trans "To'liq ism" %}<br>
+        1 {% trans "manzil qatori" %}<br>
+        2 {% trans "manzil qatori" %}<br>
+          {% trans "Shahar" %}<br>
+          {% trans "Pochta indeksi" %}<br>
+        <br>
+        Tel: +998 94 921 20 22<br>
+        Email: <a href="#">sultonabirqulov@gmail.com</a>
+        </address>
+      </div>
+      <div class="sdb_holder">
+        <article>
+          <h6>{% trans "Navigatsiya paneli haqida qisqacha" %}</h6>
+          <p>{% trans "Navigatsiya paneli judayam ko'p elementlardan tashkil topgan." %}</p>
+          <ul>
+            <li><a href="#">{% trans "Navigatsiya elementlari" %}</a></li>
+            <li><a href="#">{% trans "Asosiy qsim toplamlari" %}</a></li>
+            <li><a href="#">{% trans "Navbatdagi bo'lim" %}</a></li>
+          </ul>
+<!--          <p>Navigatsiya paneli orqali siz o'zingizga kerakli malumotlarni olishingiz mumkin. Qolgan malumotlarni Pasdagi silka orqali bilishingiz mumkin.</p>-->
+          <p>{% trans "Malumot .... " %}</p>
+          <p class="more"><a href="#">{% trans "O'qishni davom ettirish" %} &raquo;</a></p>
+        </article>
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="content three_quarter"> 
+      <!-- ################################################################################################ -->
+      <h1>{% trans "&lt;h1&gt; va &lt;h6&gt; - h1 dan h6 tegiga qadar." %}</h1>
+      <img class="imgr borderedbox inspace-5" src="{% static 'images/demo/imgr.gif' %}" alt="">
+      <p>{% trans "h1 tegidagi eng katta ....... " %}</p>
+<!--  <p>h1 tegida eng katta shrift va h6 tegida eng kichik shriftni belgilash mumkin. h1, h2, h3, h4, h5, h6 shu tartibda bo'ladi. Kattadan kichikka qadar davom etadi.</p>-->
+<!--  <p>Float Right: Eng muhim teglardan. Bu teg orqali o'zimizga kerakli malumotlarni o'zimizdan o'ng tomonda joylashtiririshimiz mumkin. Rasm, matn, jadvallar shunga o'hshash malumotlar.</p>-->
+      <p>{% trans "Float Right ..... " %}</p>
+      <img class="imgl borderedbox inspace-5" src="{% static 'images/demo/imgl.gif' %}" alt="">
+      <p>{% trans "Html teglarni o'rganish uchun eng yaxshi saytlardan biri" %} <a href="https://www.W3Scholl.com/" title="Free Website Templates">W3scholl</a> {% trans " hisoblanadi. Bu satyda barcha web saytlarni o'rganish mumkin." %}</p>
+<!--  <p>Ketingi muhim teglardan biri bu Float left tegi hisoblanadi. Huddi Float right tegi singari bu teg endi malumotlarni o'ng tomondan joylashtiradi. <a href="https://www.W3Scholl.com/">{% trans "W3scholl" %}</a> shu saytda to'liq berilgan.</p>-->
+      <p>{% trans "Keyingi muhim teglardan biri %" %}<a href="https://www.W3Scholl.com/">W3scholl</a> {% trans " shu saytda to'liq berilgan." %}</p>
+      <p>{% trans "O'zingizga kerakli malumotlarni bizning internet sahifalarimiz orqali bilib olishingiz mumkin." %}</p>
+      <h1>{% trans "Jadval" %}(s)</h1>
+      <div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>{% trans "Sarlovha 1" %}</th>
+              <th>{% trans "Sarlovha 2" %}</th>
+              <th>{% trans "Sarlovha 3" %}</th>
+              <th>{% trans "Sarlovha 4" %}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#">{% trans "Qiymat 1" %}</a></td>
+              <td>{% trans "Qiymat 2" %}</td>
+              <td>{% trans "Qiymat 3" %}</td>
+              <td>{% trans "Qiymat 4" %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "Qiymat 5" %}</td>
+              <td>{% trans "Qiymat 6" %}</td>
+              <td>{% trans "Qiymat 7" %}</td>
+              <td><a href="#">{% trans "Qiymat 8" %}</a></td>
+            </tr>
+            <tr>
+              <td>{% trans "Qiymat 9" %}</td>
+              <td>{% trans "Qiymat 10" %}</td>
+              <td>{% trans "Qiymat 11" %}</td>
+              <td>{% trans "Qiymat 12" %}</td>
+            </tr>
+            <tr>
+              <td>{% trans "Qiymat 13" %}</td>
+              <td><a href="#">{% trans "Qiymat 14" %}</a></td>
+              <td>{% trans "Qiymat 15" %}</td>
+              <td>{% trans "Qiymat 16" %}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="comments">
+        <h2>{% trans "Izohlar" %}</h2>
+        <h2>{% trans "Izoh qoldirish" %}</h2>
+        <form action="#" method="post">
+          {% csrf_token %}
+          <div class="one_third first">
+            <label for="name">{% trans "Ism" %} <span>*</span></label>
+            <input type="text" name="name" id="name" value="" size="22" required style="border: 2px solid red">
+          </div>
+          <div class="one_third">
+            <label for="email">{% trans "Email" %} <span>*</span></label>
+            <input type="email" name="email" id="email" value="" size="22" required style="border: 2px solid red">
+          </div>
+          <div class="one_third">
+            <label for="url">{% trans "Web-sayt" %}</label>
+            <input type="url" name="url" id="url" value="" size="22" style="border: 2px solid red">
+          </div>
+          <div class="block clear">
+            <label for="comment">{% trans "Sizning izohingiz" %}</label>
+            <textarea name="comment" id="comment" cols="25" rows="10" style="border: 2px solid red"></textarea>
+          </div>
+          <div>
+            <input type="submit" name="submit" value="{% trans 'Saqlash' %}" style="background-color: blue; color: white">
+            &nbsp;
+            <input type="reset" name="reset" value="{% trans 'Qayta tiklash' %}" style="background-color: blue; color: white">
+          </div>
+        </form>
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+{% endblock %}
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

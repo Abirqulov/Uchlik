@@ -1,0 +1,708 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-30 19:10+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\WaveFire\settings.py:131
+msgid "English"
+msgstr ""
+
+#: .\WaveFire\settings.py:132
+msgid "Uzbek"
+msgstr ""
+
+#: .\WaveFire\settings.py:133
+msgid "Russian"
+msgstr ""
+
+#: .\WaveFire\urls.py:26
+msgid "admin/"
+msgstr ""
+
+#: .\templates\base.html:36 .\templates\font-icons.html:31
+#: .\templates\full-width.html:31 .\templates\gallery.html:38
+#: .\templates\sidebar-left.html:30 .\templates\sidebar-right.html:38
+msgid "Bosh sahifa"
+msgstr "Дома"
+
+#: .\templates\base.html:37 .\templates\full-width.html:29
+msgid "Kengroq korish"
+msgstr "Более широкий"
+
+#: .\templates\base.html:38
+msgid "Asosiy tarmoq"
+msgstr "Домашняя сеть"
+
+#: .\templates\base.html:39 .\templates\font-icons.html:29
+msgid "Shrift belgilari"
+msgstr "Символы шрифта"
+
+#: .\templates\base.html:40
+msgid "Sahifalar"
+msgstr "Страницы"
+
+#: .\templates\base.html:42 .\templates\gallery.html:36
+msgid "Galeriya"
+msgstr "Галерея"
+
+#: .\templates\base.html:43 .\templates\sidebar-left.html:28
+msgid "Chap panel"
+msgstr "Левая панель"
+
+#: .\templates\base.html:44 .\templates\sidebar-right.html:36
+msgid "O'ng panel"
+msgstr "Правая панель"
+
+#: .\templates\base.html:48
+msgid "Til tanlash"
+msgstr "Выбор языка"
+
+#: .\templates\base.html:98
+msgid "Tezkor izlash"
+msgstr "Быстрый поиск"
+
+#: .\templates\base.html:99
+msgid "Qidiruv so'zini kiriting"
+msgstr "Введите поисковый запрос"
+
+#: .\templates\base.html:117
+msgid "Bizning Internet Sahifalarimiz"
+msgstr "Наши сайты"
+
+#: .\templates\base.html:118
+msgid ""
+"Biz iloji boricha barcha internet saytlarida o'z kanallarimizni ochishga "
+"muvoffaq bo'ldik"
+msgstr "Мы максимально открываем наши каналы на всех сайтахмы преуспели"
+
+#: .\templates\base.html:119
+msgid "Telegram Yutub"
+msgstr ""
+"У наших каналов на всех сайтах очень активные подписчики. Наиболее активными "
+"являются Telegram иЭто победа. Еще у меня есть контракты с иностранцами."
+
+#: .\templates\base.html:130
+msgid "Esta qolar rasmlar dan namunalar."
+msgstr "Образцы памятных фотографий."
+
+#: .\templates\base.html:141
+msgid "Registratsiyadan o'tish bo'limi"
+msgstr "Отдел регистрации"
+
+#: .\templates\base.html:142
+msgid "Malumotlaringizni kiritishingizni so'raymiz"
+msgstr "Пожалуйста, введите ваши данные"
+
+#: .\templates\base.html:146
+msgid "Newsletter:"
+msgstr ""
+
+#: .\templates\base.html:147 .\templates\full-width.html:102
+#: .\templates\sidebar-left.html:158 .\templates\sidebar-right.html:109
+msgid "Ism"
+msgstr "Имя"
+
+#: .\templates\base.html:148 .\templates\full-width.html:106
+#: .\templates\sidebar-left.html:162 .\templates\sidebar-right.html:113
+msgid "Email"
+msgstr "Электронное письмо"
+
+#: .\templates\base.html:149
+msgid "Parol"
+msgstr "Пароль"
+
+#: .\templates\base.html:150
+msgid "Jo'natish"
+msgstr "послать"
+
+#: .\templates\base.html:169
+msgid "Admin bilan bog'lanish"
+msgstr "Связаться с администратором"
+
+#: .\templates\base.html:172
+msgid "Email orqali"
+msgstr "По электронной почте"
+
+#: .\templates\base.html:175
+msgid "Murojat qilish vaqti"
+msgstr "Время подать заявку"
+
+#: .\templates\base.html:188
+msgid "Mualliflik huquqi"
+msgstr "Авторские права"
+
+#: .\templates\base.html:188
+msgid "Barcha huquqlar himoyalangan"
+msgstr "все права защищены"
+
+#: .\templates\base.html:188
+msgid "Domen nomi"
+msgstr "Доменное имя"
+
+#: .\templates\base.html:189
+msgid "OS Andozalari"
+msgstr "Шаблоны ОС"
+
+#: .\templates\base.html:190
+msgid "tomonidan"
+msgstr "к"
+
+#: .\templates\font-icons.html:32 .\templates\full-width.html:32
+#: .\templates\gallery.html:39 .\templates\sidebar-left.html:31
+#: .\templates\sidebar-right.html:39
+msgid "Oldinga"
+msgstr "Вперед"
+
+#: .\templates\font-icons.html:47
+msgid "Shriftlar 5.0.9"
+msgstr "Шрифты 5.0.9"
+
+#: .\templates\font-icons.html:48
+msgid ""
+"Qo'shimcha ma'lumot, shu jumladan integratsiya va foydalanish uchun "
+"Shriftning ajoyib"
+msgstr ""
+"Для интеграции и использования, включая дополнительную информациюШрифт "
+"отличный"
+
+#: .\templates\font-icons.html:49
+msgid "uy sahifasini ko'rib chiqing"
+msgstr "просматривать домашнюю страницу"
+
+#: .\templates\font-icons.html:55
+msgid "Qattiq ikonkalar"
+msgstr "Жесткие значки"
+
+#: .\templates\font-icons.html:616
+msgid "Kop ishlatiladiganlari"
+msgstr "Обычно используется"
+
+#: .\templates\font-icons.html:751
+msgid "Noyob ikonkalar"
+msgstr "Уникальные иконки"
+
+#: .\templates\full-width.html:46 .\templates\sidebar-left.html:102
+#: .\templates\sidebar-right.html:53
+msgid "&lt;h1&gt; va &lt;h6&gt; - h1 dan h6 tegiga qadar."
+msgstr "<H1> и <H6> - от тега H1 к H6."
+
+#: .\templates\full-width.html:48 .\templates\sidebar-left.html:104
+#: .\templates\sidebar-right.html:55
+msgid "h1 tegidagi eng katta ....... "
+msgstr ""
+"Вы можете указать самый большой шрифт в теге h1 и наименьший шрифт в теге "
+"h6. h1, h2, h3, h4, h5, h6 находятся в том же порядке.Он длится от большого "
+"до маленького."
+
+#: .\templates\full-width.html:51 .\templates\sidebar-left.html:107
+#: .\templates\sidebar-right.html:58
+msgid "Float Right ..... "
+msgstr ""
+"Float Right: один из самых важных тегов. С помощью этого тега мы можем "
+"разместить нужную нам информацию справа от себя. Рисунки, текст, таблицы и "
+"подобная информация."
+
+#: .\templates\full-width.html:53 .\templates\sidebar-left.html:109
+#: .\templates\sidebar-right.html:60
+msgid "Html teglarni o'rganish uchun eng yaxshi saytlardan biri"
+msgstr "Один из лучших сайтов для изучения HTML-тегов"
+
+#: .\templates\full-width.html:53 .\templates\sidebar-left.html:109
+#: .\templates\sidebar-right.html:60
+msgid " hisoblanadi. Bu satyda barcha web saytlarni o'rganish mumkin."
+msgstr "рассчитывается. На этом этапе можно просмотреть все веб-сайты."
+
+#: .\templates\full-width.html:54 .\templates\sidebar-left.html:110
+#: .\templates\sidebar-right.html:61
+msgid "W3scholl"
+msgstr ""
+
+#: .\templates\full-width.html:55 .\templates\sidebar-left.html:111
+#: .\templates\sidebar-right.html:62
+#, python-format
+msgid "Keyingi muhim teglardan biri %%"
+msgstr "Один из следующих важных тегов"
+
+#: .\templates\full-width.html:55 .\templates\sidebar-left.html:111
+#: .\templates\sidebar-right.html:62
+msgid " shu saytda to'liq berilgan."
+msgstr "дано полностью на этом сайте."
+
+#: .\templates\full-width.html:56 .\templates\sidebar-left.html:112
+#: .\templates\sidebar-right.html:63
+msgid ""
+"O'zingizga kerakli malumotlarni bizning internet sahifalarimiz orqali bilib "
+"olishingiz mumkin."
+msgstr "Узнайте необходимую информацию на наших веб-сайтахты можешь получить."
+
+#: .\templates\full-width.html:57 .\templates\sidebar-left.html:113
+#: .\templates\sidebar-right.html:64
+msgid "Jadval"
+msgstr "Стол"
+
+#: .\templates\full-width.html:62 .\templates\sidebar-left.html:118
+#: .\templates\sidebar-right.html:69
+msgid "Sarlovha 1"
+msgstr "Название 1"
+
+#: .\templates\full-width.html:63 .\templates\sidebar-left.html:119
+#: .\templates\sidebar-right.html:70
+msgid "Sarlovha 2"
+msgstr "Название 2"
+
+#: .\templates\full-width.html:64 .\templates\sidebar-left.html:120
+#: .\templates\sidebar-right.html:71
+msgid "Sarlovha 3"
+msgstr "Название 3"
+
+#: .\templates\full-width.html:65 .\templates\sidebar-left.html:121
+#: .\templates\sidebar-right.html:72
+msgid "Sarlovha 4"
+msgstr "Название 4"
+
+#: .\templates\full-width.html:70 .\templates\sidebar-left.html:126
+#: .\templates\sidebar-right.html:77
+msgid "Qiymat 1"
+msgstr "Значение 1"
+
+#: .\templates\full-width.html:71 .\templates\sidebar-left.html:127
+#: .\templates\sidebar-right.html:78
+msgid "Qiymat 2"
+msgstr "Значение 2"
+
+#: .\templates\full-width.html:72 .\templates\sidebar-left.html:128
+#: .\templates\sidebar-right.html:79
+msgid "Qiymat 3"
+msgstr "Значение 3"
+
+#: .\templates\full-width.html:73 .\templates\sidebar-left.html:129
+#: .\templates\sidebar-right.html:80
+msgid "Qiymat 4"
+msgstr "Значение 4"
+
+#: .\templates\full-width.html:76 .\templates\sidebar-left.html:132
+#: .\templates\sidebar-right.html:83
+msgid "Qiymat 5"
+msgstr "Значение 5"
+
+#: .\templates\full-width.html:77 .\templates\sidebar-left.html:133
+#: .\templates\sidebar-right.html:84
+msgid "Qiymat 6"
+msgstr "Значение 6"
+
+#: .\templates\full-width.html:78 .\templates\sidebar-left.html:134
+#: .\templates\sidebar-right.html:85
+msgid "Qiymat 7"
+msgstr "Значение 7"
+
+#: .\templates\full-width.html:79 .\templates\sidebar-left.html:135
+#: .\templates\sidebar-right.html:86
+msgid "Qiymat 8"
+msgstr "Значение 8"
+
+#: .\templates\full-width.html:82 .\templates\sidebar-left.html:138
+#: .\templates\sidebar-right.html:89
+msgid "Qiymat 9"
+msgstr "Значение 9"
+
+#: .\templates\full-width.html:83 .\templates\sidebar-left.html:139
+#: .\templates\sidebar-right.html:90
+msgid "Qiymat 10"
+msgstr "Значение 10"
+
+#: .\templates\full-width.html:84 .\templates\sidebar-left.html:140
+#: .\templates\sidebar-right.html:91
+msgid "Qiymat 11"
+msgstr "Значение 11"
+
+#: .\templates\full-width.html:85 .\templates\sidebar-left.html:141
+#: .\templates\sidebar-right.html:92
+msgid "Qiymat 12"
+msgstr "Значение 12"
+
+#: .\templates\full-width.html:88 .\templates\sidebar-left.html:144
+#: .\templates\sidebar-right.html:95
+msgid "Qiymat 13"
+msgstr "Значение 13"
+
+#: .\templates\full-width.html:89 .\templates\sidebar-left.html:145
+#: .\templates\sidebar-right.html:96
+msgid "Qiymat 14"
+msgstr "Значение 14"
+
+#: .\templates\full-width.html:90 .\templates\sidebar-left.html:146
+#: .\templates\sidebar-right.html:97
+msgid "Qiymat 15"
+msgstr "Значение 15"
+
+#: .\templates\full-width.html:91 .\templates\sidebar-left.html:147
+#: .\templates\sidebar-right.html:98
+msgid "Qiymat 16"
+msgstr "Значение 16"
+
+#: .\templates\full-width.html:97 .\templates\sidebar-left.html:153
+#: .\templates\sidebar-right.html:104
+msgid "Izohlar"
+msgstr "Комментарии"
+
+#: .\templates\full-width.html:98 .\templates\sidebar-left.html:154
+#: .\templates\sidebar-right.html:105
+msgid "Izoh qoldirish"
+msgstr "Оставить комментарий"
+
+#: .\templates\full-width.html:110 .\templates\sidebar-left.html:166
+#: .\templates\sidebar-right.html:117
+msgid "Web-sayt"
+msgstr "Веб-сайт"
+
+#: .\templates\full-width.html:114 .\templates\sidebar-left.html:170
+#: .\templates\sidebar-right.html:121
+msgid "Sizning izohingiz"
+msgstr "Ваш комментарий"
+
+#: .\templates\full-width.html:118 .\templates\sidebar-left.html:174
+#: .\templates\sidebar-right.html:125
+msgid "Saqlash"
+msgstr "Сохранить"
+
+#: .\templates\full-width.html:120 .\templates\sidebar-left.html:176
+#: .\templates\sidebar-right.html:127
+msgid "Qayta tiklash"
+msgstr "Восстановление"
+
+#: .\templates\gallery.html:55
+msgid "Galereya nomi bu erga boradi."
+msgstr "Здесь идет название галереи."
+
+#: .\templates\gallery.html:70
+msgid "Galereya tavsifi bu erga boradi"
+msgstr "Описание галереи находится здесь"
+
+#: .\templates\gallery.html:77
+msgid "Oldingi"
+msgstr "Предыдущий"
+
+#: .\templates\gallery.html:88
+msgid "Keyingisi"
+msgstr "Следующий"
+
+#: .\templates\index.html:30
+msgid "Bizning saytimizga Hush Kelibsiz"
+msgstr "Добро пожаловать на наш сайт"
+
+#: .\templates\index.html:31
+msgid ""
+"Bizning saytda O'zingizga kerakli bo'lgan malumotlarni olishingiz mumkin"
+msgstr "На нашем сайте вы можете получить необходимую информацию"
+
+#: .\templates\index.html:32
+msgid "Biz haqimizda"
+msgstr "о нас"
+
+#: .\templates\index.html:45
+msgid "2019/2020 yillik statistika"
+msgstr "Годовая статистика 2019/2020"
+
+#: .\templates\index.html:46
+msgid "Bunda kunlik, haftalik, oylik, va yillik malumtlar jamlangan"
+msgstr "Он содержит данные за день, неделю, месяц и год."
+
+#: .\templates\index.html:50
+msgid "Yillik Malumotlar"
+msgstr "Годовые данные"
+
+#: .\templates\index.html:51
+msgid "2019/2020 yil mobaynida Kampanyamiz"
+msgstr ""
+
+#: .\templates\index.html:54
+msgid "Bir oylik malumotlar"
+msgstr "Ежемесячные данные"
+
+#: .\templates\index.html:55
+msgid ""
+"Biz yaratgan loyihalar har oyda ko'plab insonlarning etirofiga sazvar "
+"bo'lmoqda."
+msgstr ""
+"Каждый месяц создаваемые нами проекты получают признание множества людей,это "
+"происходит."
+
+#: .\templates\index.html:58
+msgid "Haftalik Malumotlar"
+msgstr "Еженедельные данные"
+
+#: .\templates\index.html:59
+msgid ""
+"O'tgan ikki hafta mobaynida 2 ta loyiha tuganlandi va foydalanishga "
+"topshirildi."
+msgstr "За последние две недели сданы и сданы в эксплуатацию 2 проекта,сдал."
+
+#: .\templates\index.html:62
+msgid "Batafsil ko'rish"
+msgstr "Узнать больше"
+
+#: .\templates\index.html:75
+msgid "Sulton Abirqulov Sirojiddin O'g'li"
+msgstr "Султан Абиркулов Сирожиддин Оглы"
+
+#: .\templates\index.html:76
+msgid "Men"
+msgstr ""
+"Я Абиркулов Султан Сирожиддин оглы, 200.09.2020 Гадош Галлаоролского района "
+"Джизакской области. Я родился в деревнеВ настоящее время я учусь в "
+"Ташкентском университете информационных технологий. Моя мечта на будущее - "
+"быть сильным специалистом в своей области.быть Делаем большие проекты."
+
+#: .\templates\index.html:77
+msgid "kuchli mehnat"
+msgstr ""
+"Сейчас конкуренция очень сильная, поэтому нам нужно много работать, чтобы "
+"найти свое место."
+
+#: .\templates\index.html:78
+msgid "Yanayam ko'proq bilish"
+msgstr "Узнать больше"
+
+#: .\templates\index.html:92
+msgid "Biz Yaratgan Mahsulotlar"
+msgstr "Продукты, которые мы создаем"
+
+#: .\templates\index.html:93
+msgid "Bu yerda qisqacha berilgan Yanayam ko'proq ko'rishingiz mumkin"
+msgstr "Вы можете увидеть больше в сводке здесь"
+
+#: .\templates\index.html:98
+msgid "Yaxshi kayfiyat sirlari app."
+msgstr "Приложение Секреты хорошего настроения."
+
+#: .\templates\index.html:99
+msgid "Bunda siz qande qande qilib yaxshi kayfiyatda bo'lishni o'rganasiz."
+msgstr "Поступая так, вы научитесь быть в хорошем настроении."
+
+#: .\templates\index.html:100 .\templates\index.html:107
+#: .\templates\index.html:114 .\templates\index.html:121
+#: .\templates\index.html:128 .\templates\index.html:135
+msgid "Davomi"
+msgstr "Прочитайте больше"
+
+#: .\templates\index.html:105
+msgid "Inson media"
+msgstr "Человеческие СМИ"
+
+#: .\templates\index.html:106
+msgid "Barcha turdagi ruhiy bilimlar olami. Faqat bizda ko'rishingiz mumkin"
+msgstr "Мир всевозможных духовных знаний. Только ты можешь нас видеть"
+
+#: .\templates\index.html:112
+msgid "Avtomobillarga dizkalar."
+msgstr "Наколенники на авто."
+
+#: .\templates\index.html:113
+msgid "Barcha turdagi avtomobilllar uchun har qanday o'lcham mavjud"
+msgstr "Доступен в любом размере для всех типов автомобилей."
+
+#: .\templates\index.html:119
+msgid "Yaxshi ko'rish sirlari"
+msgstr "Секреты хорошего зрения"
+
+#: .\templates\index.html:120
+msgid "Ko'zingiz yaxshi ko'rmayapdimi unda bizda yaxshi ko'rasiz"
+msgstr "Если твои глаза не любят, значит, ты нас любишь"
+
+#: .\templates\index.html:126
+msgid "Eng zo'r Kameralar"
+msgstr "Отличные камеры"
+
+#: .\templates\index.html:127
+msgid "Ha siz adashmadingiz eng zo'rlari faqat bizda. Keyib boshqalarda"
+msgstr "Да, ты прав. В других"
+
+#: .\templates\index.html:133
+msgid "Velosipedni sifatlilari"
+msgstr "Велосипедные качества"
+
+#: .\templates\index.html:134
+msgid ""
+"Velosiped tanlashda adashmang, bizda faqat eng sifatlilari oling va mining"
+msgstr ""
+"Не теряйтесь в выборе велосипеда, покупайте и катайтесь только на лучших, "
+"которые у нас есть"
+
+#: .\templates\index.html:139
+msgid "Barchasi shu yerda"
+msgstr "Это все здесь"
+
+#: .\templates\index.html:150
+msgid "Uchlik Kampanyasi asoschilari"
+msgstr "Основатели кампании Trinity"
+
+#: .\templates\index.html:151
+msgid "Kapanyamiz 13/03/2020 sanasida tashkil topgan"
+msgstr "Наша ловушка образовалась 13.03.2020"
+
+#: .\templates\index.html:162 .\templates\index.html:171
+#: .\templates\index.html:180
+msgid "O'qish"
+msgstr "Чтение"
+
+#: .\templates\index.html:186
+msgid "To'liq Malumotlar"
+msgstr "Полная информация"
+
+#: .\templates\sidebar-left.html:45 .\templates\sidebar-right.html:137
+msgid "Navigatsiya paneli"
+msgstr "Панель навигации"
+
+#: .\templates\sidebar-left.html:48 .\templates\sidebar-left.html:49
+#: .\templates\sidebar-left.html:51 .\templates\sidebar-left.html:52
+#: .\templates\sidebar-left.html:55 .\templates\sidebar-left.html:57
+#: .\templates\sidebar-left.html:58 .\templates\sidebar-left.html:60
+#: .\templates\sidebar-left.html:61 .\templates\sidebar-left.html:66
+#: .\templates\sidebar-right.html:140 .\templates\sidebar-right.html:141
+#: .\templates\sidebar-right.html:143 .\templates\sidebar-right.html:144
+#: .\templates\sidebar-right.html:147 .\templates\sidebar-right.html:149
+#: .\templates\sidebar-right.html:150 .\templates\sidebar-right.html:152
+#: .\templates\sidebar-right.html:153 .\templates\sidebar-right.html:158
+msgid "Navigarsiya - yorlig'i"
+msgstr "Навигация - вкладка"
+
+#: .\templates\sidebar-left.html:70 .\templates\sidebar-right.html:162
+msgid "Asosoiy qsim"
+msgstr "Основная часть"
+
+#: .\templates\sidebar-left.html:72 .\templates\sidebar-right.html:164
+msgid "To'liq ism"
+msgstr "Полное имя"
+
+#: .\templates\sidebar-left.html:73 .\templates\sidebar-left.html:74
+#: .\templates\sidebar-right.html:165 .\templates\sidebar-right.html:166
+msgid "manzil qatori"
+msgstr "Адресная строка"
+
+#: .\templates\sidebar-left.html:75 .\templates\sidebar-right.html:167
+msgid "Shahar"
+msgstr "Город"
+
+#: .\templates\sidebar-left.html:76 .\templates\sidebar-right.html:168
+msgid "Pochta indeksi"
+msgstr "почтовый индекс"
+
+#: .\templates\sidebar-left.html:84 .\templates\sidebar-right.html:176
+msgid "Navigatsiya paneli haqida qisqacha"
+msgstr "Кратко о панели навигации"
+
+#: .\templates\sidebar-left.html:85 .\templates\sidebar-right.html:177
+msgid "Navigatsiya paneli judayam ko'p elementlardan tashkil topgan."
+msgstr "Панель навигации состоит из слишком большого количества элементов."
+
+#: .\templates\sidebar-left.html:87 .\templates\sidebar-right.html:179
+msgid "Navigatsiya elementlari"
+msgstr "Элементы навигации"
+
+#: .\templates\sidebar-left.html:88 .\templates\sidebar-right.html:180
+msgid "Asosiy qsim toplamlari"
+msgstr "Базовые комплекты компонентов"
+
+#: .\templates\sidebar-left.html:89 .\templates\sidebar-right.html:181
+msgid "Navbatdagi bo'lim"
+msgstr "Следующий раздел"
+
+#: .\templates\sidebar-left.html:92 .\templates\sidebar-right.html:184
+msgid "Malumot .... "
+msgstr "Через панель навигации вы можете получить нужную информацию. Остальное вы можете узнать, перейдя по ссылке ниже."
+
+#: .\templates\sidebar-left.html:93 .\templates\sidebar-right.html:185
+msgid "O'qishni davom ettirish"
+msgstr "продолжить чтение"
+
+#, fuzzy
+#~| msgid "Noyob ikonkalar"
+#~ msgid "Doimiy ikonkalar"
+#~ msgstr "Permanent icons"
+
+#, fuzzy
+#~| msgid "Shrift belgilari"
+#~ msgid "Muntazam ikonkalar"
+#~ msgstr "Символы шрифта"
+
+#, fuzzy
+#~| msgid "Jo'natish"
+#~ msgid "O'tish"
+#~ msgstr "послать"
+
+#, fuzzy
+#~| msgid "Shrift belgilari"
+#~ msgid "shrift belgilari"
+#~ msgstr "Символы шрифта"
+
+#, fuzzy
+#~| msgid "Jo'natish"
+#~ msgid "Jonatish"
+#~ msgstr "послать"
+
+#, fuzzy
+#~| msgid "Kengroq korish"
+#~ msgid "Yuborish"
+#~ msgstr "Прочитайте больше"
+
+#, fuzzy
+#~| msgid "Kengroq korish"
+#~ msgid "Kengroq ko'rish"
+#~ msgstr "Более широкий"
+
+#~ msgid "Let's translate this"
+#~ msgstr "привет"
+
+#~ msgid "Baxriddinov Dilshod"
+#~ msgstr "Бахриддинов Дильшод"
+
+#~ msgid "O'zbekiston Milliy Universiteti 4-bosqich talabasi"
+#~ msgstr "Студент 4 курса Национального университета Узбекистана."
+
+#~ msgid "Abirqulov Sulton"
+#~ msgstr "Абиркулов Султан"
+
+#~ msgid "Toshkent Axborot Texnologiyalari Universiteti 2-bosqich talabasi"
+#~ msgstr ""
+#~ "Студент 2 курса Ташкентского университета информационных технологий."
+
+#~ msgid "Fayzullayev Xidirboy"
+#~ msgstr "Файзуллаев Хыдырбой"
+
+#~ msgid "O'zbekiston Milliy Universiteti 3-bosqich talabasi"
+#~ msgstr "Студент 3 курса Национального университета Узбекистана."
+
+#, fuzzy
+#~| msgid "chlik"
+#~ msgid "Uchlik"
+#~ msgstr "Троица"
+
+#, fuzzy
+#~| msgid "Kengroq korish"
+#~ msgid "Ko'proq o'qish"
+#~ msgstr "Более широкий"
+
+#, python-format
+#~ msgid ""
+#~ "2019/2020 yil mobaynida Kampanyamiz loyihalari muvofaqqiyatli yakunlandi, "
+#~ "yillik foyda 25%% ga oshdi."
+#~ msgstr ""
+#~ "В течение 2019/2020 гг. Проекты нашей кампании были успешно завершены,"
+#~ "годовая прибыль увеличилась на 25%."

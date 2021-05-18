@@ -1,0 +1,205 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<!--
+Template Name: Wavefire
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+{% block title %}<title>Uchlik</title>{% endblock %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
+<div class="wrapper row1">
+  <section class="hoc clear">
+    <!-- ################################################################################################ -->
+    <nav id="mainav">
+      <ul class="clear">
+        <li><a href="{% url 'index' %}">{% trans 'Bosh sahifa' %}</a></li>
+        <li><a href="{% url 'full_width' %}">{% trans 'Kengroq korish' %}</a></li>
+        <li><a href="{% url 'basic_grid' %}">{% trans 'Asosiy tarmoq' %}</a></li>
+        <li><a href="{% url 'font_icons' %}">{% trans 'Shrift belgilari' %}</a></li>
+        <li><a class="drop" href="#">{% trans 'Sahifalar' %}</a>
+          <ul>
+            <li><a href="{% url 'gallery' %}">{% trans 'Galeriya' %}</a></li>
+            <li><a href="{% url 'sidebar_left' %}">{% trans 'Chap panel' %}</a></li>
+            <li><a href="{% url 'sidebar_right' %}">{% trans "O'ng panel" %}</a></li>
+          </ul>
+        </li>
+<!--        <li><pre>     </pre></li>-->
+        <li><a class="drop" href="#">{% trans 'Til tanlash' %}</a>
+          <ul>
+
+            {% for lang in languages %}
+              {% if 'uz' !=  LANGUAGE_CODE %}
+                {% if lang.code !=  LANGUAGE_CODE %}
+                  {% if lang.code !=  'uz' %}
+                    <li>
+                      <a href="/{{ lang.code }}{{ request.get_full_path|slice:'3:' }}">
+                          {{ lang.code}}
+                      </a>
+                    </li>
+                  {% else%}
+                    <li>
+                      <a href="{{ request.get_full_path|slice:'3:' }}">
+                          {{ lang.code }}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% else %}
+                {% if lang.code !=  LANGUAGE_CODE %}
+                  {% if lang.code !=  'uz' %}
+                    <li>
+                      <a href="/{{ lang.code }}{{ request.get_full_path }}">
+                          {{ lang.code}}
+                      </a>
+                    </li>
+                  {% else%}
+                    <li>
+                      <a href="{{ request.get_full_path }}">
+                          {{ lang.code }}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+
+            {% endfor %}
+          </ul>
+
+        </li>
+      </ul>
+<!--      {{ request.get_full_path|slice:"3:" }}-->
+    </nav>
+    <!-- ################################################################################################ -->
+    <div id="searchform">
+      <div>
+        <form action="{% url 'search_results' %}" method="get">
+          <fieldset>
+            <legend>{% trans 'Tezkor izlash' %}:</legend>
+            <input type="text" name="q" placeholder="{% trans "Qidiruv so'zini kiriting" %}&hellip;" style="color: white;">
+<!--            <button name="q" type="submit"><i class="fas fa-search"></i></button>-->
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+
+{% block content %}
+
+{% endblock %}
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">{% trans 'Bizning Internet Sahifalarimiz' %}</h6>
+      <p>{% trans "Biz iloji boricha barcha internet saytlarida o'z kanallarimizni ochishga muvoffaq bo'ldik" %}</p>
+      <p class="btmspace-30">{% trans "Telegram Yutub" %}  [<a href="#"><i class="fas fa-arrow-right"></i></a>]</p>
+      <ul class="faico clear">
+        <li><a class="faicon-dribble" href="#"><i class="fab fa-dribbble"></i></a></li>
+        <li><a class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a class="faicon-vk" href="#"><i class="fab fa-vk"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">{% trans "Esta qolar rasmlar dan namunalar." %}</h6>
+      <ul class="nospace clear latestimg">
+        <li><a href="#"><img src="{% static 'images/demo/20.jpg' %}" alt=""></a></li>
+        <li><a href="#"><img src="{% static 'images/demo/21.jpg' %}" alt=""></a></li>
+        <li><a href="#"><img src="{% static 'images/demo/22.jpg' %}" alt=""></a></li>
+        <li><a href="#"><img src="{% static 'images/demo/23.jpg' %}" alt=""></a></li>
+        <li><a href="#"><img src="{% static 'images/demo/24.jpg' %}" alt=""></a></li>
+        <li><a href="#"><img src="{% static 'images/demo/25.jpg' %}" alt=""></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">{% trans "Registratsiyadan o'tish bo'limi" %}</h6>
+      <p class="nospace btmspace-15">{% trans "Malumotlaringizni kiritishingizni so'raymiz" %}..</p>
+      <form method="post" action="#">
+          {% csrf_token %}
+        <fieldset>
+          <legend>{% trans "Newsletter:" %}</legend>
+          <input class="btmspace-15" type="text" name="name" placeholder="{% trans 'Ism' %}">
+          <input class="btmspace-15" type="text" name="email" placeholder="{% trans 'Email' %}">
+          <input class="btmspace-15" type="text" name="password" placeholder="{% trans 'Parol' %}">
+          <button type="submit" value="submit">{% trans "Jo'natish" %}</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <header id="header" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <div id="logo" class="one_quarter first">
+      <h1><a href="index.html"><span>U</span>chlik</a></h1>
+    </div>
+    <div class="three_quarter">
+      <ul class="nospace clear">
+        <li class="one_third first">
+          <div class="block clear"><a href="#"><i class="fas fa-phone"></i></a> <span><strong>{% trans "Admin bilan bog'lanish" %}:</strong> +998 94 921 20 22</span></div>
+        </li>
+        <li class="one_third">
+          <div class="block clear"><a href="#"><i class="fas fa-envelope"></i></a> <span><strong>{% trans "Email orqali" %}:</strong> sultonabirqulov@gmail.com</span></div>
+        </li>
+        <li class="one_third">
+          <div class="block clear"><a href="#"><i class="fas fa-clock"></i></a> <span><strong> {% trans 'Murojat qilish vaqti' %}:</strong> 08:00 dan - 18:00 gacha</span></div>
+        </li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+<div id="copyright" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <p class="fl_left">{% trans "Mualliflik huquqi" %} © 2021 - {% trans "Barcha huquqlar himoyalangan" %} - <a href="#">{% trans "Domen nomi" %}</a></p>
+    <p class="fl_right">{% trans "OS Andozalari" %}<a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">
+      {% trans "tomonidan" %} </a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+
+<script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+
+</body>
+</html>
