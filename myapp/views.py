@@ -31,6 +31,7 @@ def Index(request):
 def gallery(request):
     return render(request, 'gallery.html')
 
+
 def full_width(request):
 
     if request.method == "POST":
@@ -44,11 +45,14 @@ def full_width(request):
 
     return render(request, 'full-width.html')
 
+
 def basic_grid(request):
     return render(request, 'basic-grid.html')
 
+
 def font_icons(request):
     return render(request, 'font-icons.html')
+
 
 def sidebar_left(request):
     if request.method == "POST":
@@ -61,6 +65,7 @@ def sidebar_left(request):
         left.save()
 
     return render(request, 'sidebar-left.html')
+
 
 def sidebar_right(request):
     if request.method == "POST":
@@ -77,6 +82,7 @@ def sidebar_right(request):
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
+
 
 class SearchResultsView(ListView):
     model = Uchlik
