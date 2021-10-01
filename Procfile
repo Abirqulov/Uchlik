@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn WaveFire.wsgi --local-file=-
+web: gunicorn WaveFire.wsgi --log-file -
