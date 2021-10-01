@@ -10,8 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-# from pathlib import Path
+from pathlib import Path
 import os
+import django_heroku
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -24,7 +25,7 @@ SECRET_KEY = 'j=*3zf_w3%&td^^pj4f5&s_rubs@-fba^g6+o4w98-ot04g_-4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wave-fire-uchlik.herokuapp.com']
 
 
 # Application definition
@@ -79,10 +80,26 @@ WSGI_APPLICATION = 'WaveFire.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'd8f5o03gv21r6n',
+        'USER': 'gpsricunyopjqe',
+        'PASSWORD': '7609a3c1b3622061ac4b851aa4e4fb6e985c221797ee27d2d823c9d3a1a07663',
+        'HOST': 'ec2-54-161-189-150.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
+
+#PgAdmin4
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.contrib.gis.db.backends.postgis',
+#         'NAME': 'WaveFire_Uchlik',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Sulton2022',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
@@ -121,7 +138,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
 
 from django.utils.translation import gettext_lazy as _
 
@@ -138,10 +154,16 @@ LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale/')
 ]
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
+django_heroku.settings(locals())
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
